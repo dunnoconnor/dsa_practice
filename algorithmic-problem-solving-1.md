@@ -39,4 +39,16 @@ class Solution (object):
                 del counts[n]
 
         return list(counts.key())[0]
+
+
+# Jared's thought process:
+
+def noDouble(array):
+    doubles = []
+
+        for num in doubles:
+            if num in doubles 
+                return num
+                doubles.add(num)
+                
     
