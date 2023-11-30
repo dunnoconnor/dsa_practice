@@ -23,3 +23,32 @@ Constraints:
 1 <= nums.length <= 3 * 104
 -3 * 104 <= nums[i] <= 3 * 104
 Each element in the array appears twice except for one element which appears only once.
+
+
+
+# Stephanie's thought process: 
+
+class Solution (object): 
+    def singleNumber(self, nums: List[int]) - > int: 
+    counts = { } 
+
+        for n in nums: 
+            if n not in counts: 
+                counts[n] 
+            else: 
+                del counts[n]
+
+        return list(counts.key())[0]
+
+
+# Jared's thought process:
+
+def noDouble(array):
+    doubles = []
+
+        for num in doubles:
+            if num in doubles 
+                return num
+                doubles.add(num)
+                
+    
