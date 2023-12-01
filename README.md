@@ -16,6 +16,7 @@ Each project submission must have at least four seperate commits
 * Three: Pseudocode your plan in comments
 * Four (and above): Commit your code as you go until you solution is complete
 
+
 ### Topics
 * Algorithmic Problem Solving
 * Big O
